@@ -264,7 +264,7 @@ nav .fas{
     flex-direction: row;
   }
   .media{
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
   }
 }
 
@@ -354,18 +354,15 @@ nav .fas{
   min-height: 100vh;
   width: 100vw;
   padding-top: 10vh;
-  background:url('./img/space.jfif');
+  background:url('./img/space.jfif') repeat;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  /* color: black; */
 }
 .four h1{
-  /* border: 2px solid red; */
   font-size: 3rem;
   letter-spacing: 5px;
-  /* line-height:1; */
   color: white;
   padding: 2px 5px;
   border: 2px solid white;
@@ -391,11 +388,7 @@ nav .fas{
   margin: 40px 30px;
   transition: 0.5s;
 }
-@media(max-width: 1000px){
-  .sccontainer{
-    flex-direction: column;
-  }
-}
+
 .scbox::before{
   content: '';
   position: absolute;
@@ -419,6 +412,7 @@ nav .fas{
   transition: 0.5s;
   filter: blur(30px);
 }
+
 .scbox:hover:before,
 .scbox:hover:after{
   transform: scaleX(1.5);
@@ -499,11 +493,11 @@ nav .fas{
 {
   0%,100%
   {
-      transform: translateY(10px);
+      transform: translateY(5px);
   }
   50%
   {
-      transform: translateY(-10px);
+      transform: translateY(-5px);
   }
 }
 
@@ -530,11 +524,35 @@ nav .fas{
   font-size: 1.1em;
   margin-bottom: 10px;
 }
+@media(max-width: 1000px){
+  .four{
+    min-height: 200vh;
+  }
+  .four h1{
+    margin-top: 3vh;
+    flex-direction: column;
+    font-size: 2.3rem;
+  }
+  .sccontainer{
+    height: 180vh;
+    width: 100%;
+  }
+  .scbox{
+    text-align: center;
+    margin: 40px 20px;
 
+  }
+  .sccontent h2{
+    font-size: 2em;
+  }
+  .sccontent p{
+    font-size: 1.2em;
+    line-height:1.2;
+  }
+}
 
 
 /* ----------------------STATS------------------------ */
-
 #counter-up{
   background: url('img/space.jfif') center/cover;
   height: 100vh;
@@ -630,11 +648,11 @@ nav .fas{
   #counter-up .heading h3{
     font-size: 2.8rem;
     letter-spacing: 3px;
-
+    padding-bottom: 20px;
   }
   #counter-up .content{
     align-items: flex-start;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
   }
   #counter-up img{
     height: 4rem;
@@ -669,42 +687,31 @@ nav .fas{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* -------------FOOTER SECTION------------- */
 .five{
   background: url('img/space.jfif');
   background-position: center;
   background-size: cover;
   color: #000;
+  height: 100vh;
+
 }
 #features{
   height: 100vh;
-  padding-top:10vh;
+  padding-top:12vh;
 }
 #features .ytlinks{
-  height: 52vh;
-  /* border: 2px solid red; */
+  height: 50vh;
+  border: 2px solid red;
 }
 #features .ytlinks h1{
 color: white;
 text-align: center;
-height: 15%;
-font-size: 40px;
-padding-top: 25px;
-/* border: 2px solid red; */
+font-size: 2.5rem;
+border: 2px solid white;
 }
 #features .ytlinks .container{
-/* border: 2px solid pink; */
+border: 2px solid yellow;
 height: 80%;
 display: flex;
 color: white;
@@ -722,6 +729,7 @@ height: 80%;
 width: 100%;
 height: 100%;
 }
+
 #features .footer{
   display:flex;
   height: 30vh;
@@ -730,7 +738,6 @@ height: 100%;
   background-color: White;
   width: 100vw;
   /* border:2px solid red;      */
-
 }
 #features .box{
   display:flex;
@@ -814,5 +821,37 @@ color: #2a6cbb;
 #features .logoicon ul li:nth-child(5):hover{
 color: #fd3737;
 }
-
+@media(max-width: 1000px){
+  .old{
+    display: none;
+  }
+  #features{
+    height: 100vh;
+    padding-top:10vh;
+  }
+  #features .ytlinks{
+    height: 30%;
+    border: 2px solid red;
+  }
+  #features .ytlinks h1{
+    font-size: 2rem;
+    margin-top: 5vh;
+  }
+  #features .ytlinks .container{
+  height: 35vh;
+  display: flex;
+  }
+  #features .ytlinks .container .boxes{ 
+  flex-basis: auto;
+  height: 80%;
+  
+  }
+  #features .ytlinks .container .boxes iframe{ 
+  width: 100%;
+  height: 100%;
+  }
+  #features .logoicon{
+    align-items: flex-end;
+  }
+}
 
