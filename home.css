@@ -111,7 +111,7 @@ nav .fas{
 }
 /* -----------------Landing----------------- */
 .one{
-  background: url('/Landing/img/finalone.png') center/cover;
+  background: url('./img/finalone.png') center/cover;
   flex-direction: column;
 }
 .one h1{
@@ -145,7 +145,7 @@ nav .fas{
   justify-content: space-between;
   padding-top:10vh;
   /* border: 2px solid red; */
-  background:url('/Landing/img/space.jfif')
+  background:url('./img/space.jfif')
 }
 .aboutus .flexleft{
   flex-basis: 45%;
