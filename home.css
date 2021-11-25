@@ -111,7 +111,7 @@ nav .fas{
 }
 /* -----------------Landing----------------- */
 .one{
-  background: url('/img/finalone.png') center/cover;
+  background: url('/Landing/img/finalone.png') center/cover;
   flex-direction: column;
 }
 .one h1{
