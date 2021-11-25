@@ -75,6 +75,9 @@ nav .fas{
 }
 
 @media(max-width: 1000px){
+  nav a img{
+    height:90px;
+  }
   .nav-links{
       position: absolute;
       background: #f44336;
@@ -103,7 +106,7 @@ nav .fas{
   nav .fas{
     display: block;
     color: #fff;
-    margin: 10px;
+    margin: 20px;
     margin-bottom: 50px;
     font-size: 30px;
     cursor: pointer;
@@ -158,12 +161,12 @@ nav .fas{
   display: flex;
   justify-content: space-between;
   padding-top:10vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background:url('./img/space.jfif') repeat center/cover;
 }
 .aboutus .flexleft{
   flex-basis: 45%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -191,19 +194,21 @@ nav .fas{
 }
 .aboutus .flexright .heading{
   /* border: 2px solid pink;     */
-  font-size: 50px;
+  font-size: 3.5rem;
   font-weight: 1000;
   letter-spacing: 2px;
   margin-bottom: 5%;
 }
 
 .aboutus .flexright .text{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   word-spacing: 2px;
   letter-spacing: 1px;
   display: flex;
-  justify-content:space-evenly;
-  border: 2px solid pink;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  /* border: 2px solid pink; */
 }
 
 .media{
@@ -235,6 +240,32 @@ nav .fas{
   cursor: pointer;
   margin:10px ;
   transition: .5s;
+}
+@media(max-width: 1000px){
+  .aboutus{
+    flex-direction: column;
+  }
+  .aboutus .flexleft{
+    display:none
+  }
+  .aboutus .flexright{
+    margin-top: 5vh;
+    align-items: center;
+    padding:0 25px;
+  }
+  .aboutus .flexright .heading{
+    font-size: 3rem;
+  }
+  
+  .aboutus .flexright .text{
+    font-size: 1rem;
+  }
+  .media .logos ul{
+    flex-direction: row;
+  }
+  .media{
+    margin-bottom: 5vh;
+  }
 }
 
 .media .logos ul li:hover:before{
@@ -316,42 +347,7 @@ nav .fas{
   0 0 400px #fd3737, 
   0 0 100px #fd3737;
 }
-@media(max-width: 1000px){
-  .aboutus{
-    flex-direction: column;
-  }
-  .aboutus .flexleft{
-    display:none
-  }
-  .aboutus .flexright{
-    color: #F4EEE4;
-    flex-basis: 45%;
-    border: 2px solid red;
-    width: 100%;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 5%;
-  }
-  .aboutus .flexright .heading{
-    /* border: 2px solid pink;     */
-    font-size: 50px;
-    font-weight: 1000;
-    letter-spacing: 2px;
-    margin-bottom: 5%;
-    background: url('/img/aboutus.png')center/cover;
-    f
-  }
-  
-  .aboutus .flexright .text{
-    font-size: 1rem;
-  }
-  .media .logos ul{
-    flex-direction: row;
-  }
 
-}
 
 /* ----------Social Cause------------ */
 .four{
@@ -363,7 +359,7 @@ nav .fas{
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  color: black;
+  /* color: black; */
 }
 .four h1{
   /* border: 2px solid red; */
@@ -394,6 +390,11 @@ nav .fas{
   width: 350px;
   margin: 40px 30px;
   transition: 0.5s;
+}
+@media(max-width: 1000px){
+  .sccontainer{
+    flex-direction: column;
+  }
 }
 .scbox::before{
   content: '';
@@ -506,8 +507,6 @@ nav .fas{
   }
 }
 
-
-
 .sccontent{
   position: relative;
   left: 0;
@@ -537,28 +536,23 @@ nav .fas{
 /* ----------------------STATS------------------------ */
 
 #counter-up{
-  background: url('img/space.jfif');
-  background-position: center;
-  background-size: cover;
+  background: url('img/space.jfif') center/cover;
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 10vw;  
-  font-family: 'Poppins', sans-serif;
   /* border: 2px solid red; */
   overflow-y: hidden;
 }
 #counter-up .heading{
   letter-spacing: 5px;
-  font-family: 'Poppins', sans-serif;
   /* border: 2px solid red; */
-  flex-basis: 50%;
 }
 #counter-up .heading h3{
   color: #4247d8;
-  font-size:70px;
+  font-size:5rem;
   letter-spacing: 10px;
   font-weight:750;
   text-shadow: 
@@ -570,45 +564,32 @@ nav .fas{
   0 0 40px #2E3192, 
   0 0 10px #2E3192;
   }
-  
-/* #counter-up .heading h3::after{
-  display: block;
-  content: '';
-  height: 5px;
-  background: #00ffef;
-  box-shadow: 0 0 10px #00ffef,
-  0 0 20px #00ffef,
-  0 0 40px #00ffef,
-  0 0 80px #00ffef,
-  0 0 120px #00ffef ;
-  /* border: 2px solid red; */
-
 
 #counter-up .content{
-  /* border: 2px solid red; */
+  /* border: 2px solid yellow; */
   width: 100%;
   height: 75vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   color: white;
+  align-items: flex-start;
+  padding-left: 10vw;
 }
 #counter-up .content .box{
   display: flex;
-  align-items: center;
   /* border: 2px solid green; */
-  width: 30vw;
-  padding-top:5vh ;
+  margin-top:2vh ;
 }
 #counter-up .icon{
   /* border: 2px solid pink; */
-  padding-right: 10vw;
+  margin-right: 10vw;
   color: white;
 }
 #counter-up img{
-  height: 70px;
-  width: 70px;
+  height: 5rem;
+  width: 5rem;
+  /* border: 1px solid pink; */
 }
 #counter-up .container {
   display: flex;
@@ -639,6 +620,49 @@ nav .fas{
   font-weight: 800;
   text-align: left;
   letter-spacing:2px;
+}
+@media(max-width: 1000px){
+  #counter-up{
+    flex-direction: column;
+    padding: 0 5vw;  
+    padding-top: 15vh;
+  }
+  #counter-up .heading h3{
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+
+  }
+  #counter-up .content{
+    align-items: flex-start;
+    margin-bottom: 10vh;
+  }
+  #counter-up img{
+    height: 4rem;
+    width: 4rem;
+    /* border: 1px solid pink; */
+  }
+  #counter-up .content .box .counter{
+    font-size:1.7rem;
+    font-weight: 500;
+    padding-right: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  #counter-up .content .box span{
+    font-size:1.7rem;
+    font-weight: 1000;
+  }
+  #counter-up .content .box .text{
+    color:#ccc;
+    text-align: center;
+    font-size:1.5rem;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing:2px;
+  }
+  #counter-up .content .box .text span{
+    display: none;
+  }
 }
 
 
