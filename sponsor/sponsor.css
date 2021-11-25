@@ -1,0 +1,42 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h3{
+  font-family: 'Montserrat';
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.section1{
+  background-color: #fff;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0% 15%;
+}
+
+.title{
+  padding: 0 36%;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature-text{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: teal;
+}
+
+.testimonial-image{
+  width: 100%;
+  margin: 20px;
+}
