@@ -115,27 +115,41 @@ nav .fas{
   flex-direction: column;
 }
 .one h1{
-  margin-top: 15vh;
   font-size: 5rem;
   font-weight: 800;
 }
 .one h2{
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2px;
 }
 .one p{
-  /* margin-top: 20px; */
-  font-size: 1.2rem;
+  margin-top: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: 2px;
   text-align: center;
   width: 40vw;
 }
-
-
-
-
+@media(max-width: 1000px){
+  .one{
+    background: url('./img/finalone.png') center;
+  }
+  .one h1{
+    margin-bottom: 5vh;
+    font-size: 3.5rem;
+  }
+  .one h2{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .one p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    width: 80vw;
+  }
+}
 
 /* ------------ABOUT US------------------- */
 .aboutus{
@@ -144,12 +158,12 @@ nav .fas{
   display: flex;
   justify-content: space-between;
   padding-top:10vh;
-  /* border: 2px solid red; */
-  background:url('./img/space.jfif')
+  border: 2px solid red;
+  background:url('./img/space.jfif') repeat center/cover;
 }
 .aboutus .flexleft{
   flex-basis: 45%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 100%;
   display: flex;
   align-items: center;
@@ -161,6 +175,7 @@ nav .fas{
   width: 150%;
   padding: 5%;
 }
+
 
 
 .aboutus .flexright{
@@ -186,6 +201,9 @@ nav .fas{
   font-size: 1.2rem;
   word-spacing: 2px;
   letter-spacing: 1px;
+  display: flex;
+  justify-content:space-evenly;
+  border: 2px solid pink;
 }
 
 .media{
@@ -297,6 +315,42 @@ nav .fas{
   0 0 200px #fd3737, 
   0 0 400px #fd3737, 
   0 0 100px #fd3737;
+}
+@media(max-width: 1000px){
+  .aboutus{
+    flex-direction: column;
+  }
+  .aboutus .flexleft{
+    display:none
+  }
+  .aboutus .flexright{
+    color: #F4EEE4;
+    flex-basis: 45%;
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+  }
+  .aboutus .flexright .heading{
+    /* border: 2px solid pink;     */
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    background: url('/img/aboutus.png')center/cover;
+    f
+  }
+  
+  .aboutus .flexright .text{
+    font-size: 1rem;
+  }
+  .media .logos ul{
+    flex-direction: row;
+  }
+
 }
 
 /* ----------Social Cause------------ */
