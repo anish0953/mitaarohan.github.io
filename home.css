@@ -79,6 +79,7 @@ nav .fas{
   nav{
     padding-right: 20px;
     /* padding-top: 20px; */
+    z-index: 20;
   }
   nav a img{
     height:100px;
