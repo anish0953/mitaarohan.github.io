@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f82ca20d7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f82ca20d7.js" crossorigin="anonymous"></script>
+    <title>Mit Aarohan</title>
+    <link rel="stylesheet" href="eventsnew.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" class="titlee">
+            <img src="/img/aarologo.png" alt="">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./competition/comp.html">Competition</a></li>
+                <li><a href="./events/events.html">Event</a></li>
+                <li><a href="./gallery/gallery.html">Gallery</a></li>
+                <li><a href="./sponsor/sponsor.html">Sponsor</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="containerfull">
+        <section class="one">
+            <div class="info">
+                <h1>Pronite</h1>
+                <p>A beat drop, that makes you jump in excitement. A song that makes thousands sing in unison.
+                    Flashlights that light up not just the sky, but your entire life in that moment. Come live life to
+                    the fullest, join us for our pronite.</p>
+            </div>
+        </section>
+        <section class="two">
+            <div class="info">
+                <h1>Youtuber's Fest</h1>
+                <p>You never get bored with YouTube. How much fun would an evening full of interaction with YouTubers be
+                    then? Only one way to find out, join us for the ever exciting YouTuber's fest!</p>
+            </div>
+        </section>
+        <section class="three">
+            <div class="info">
+                <h1>ComedyNite</h1>
+                <p>Comedy is a serious business. A serious business with only one purpose- to make people laugh. Here's
+                    a challenge for you, how long can you hold that laughter in?</p>
+            </div>
+        </section>
+        <section class="four">
+            <div class="info">
+                <h1>Theater Fest</h1>
+                <p>We must all do theatre to find out who we are, and to discover who we could become. Lose yourself in
+                    the theatre acts we present to you.</p>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+        navLinks.style.display = "block";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-250px";
+        navLinks.style.display = "hidden";
+    }
+</script>
+
+</html>
