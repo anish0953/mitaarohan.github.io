@@ -25,18 +25,19 @@
   font-size: 3.5em;
   font-weight:500;
   padding-bottom: 10px;
-  border-bottom: 3px solid #e100ff;
+  border-bottom: 3px solid #2a6cbb;
   color: #ffff;
 }
 
 #gallery .heading h3 span{
-  color: #e100ff;
+  color: #2a6cbb;
   font-weight: 600;
 }
 #gallery .g-box{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 
 #gallery .g-box .dream{
@@ -49,7 +50,7 @@
   width: 100%;
   margin-bottom: 15px;
   border-radius: 5px;
-  border: 1px solid rgb(255, 151, 224);
+  border: 1px solid #2a6cbb;
 }
 
 #gallery .g-btn{

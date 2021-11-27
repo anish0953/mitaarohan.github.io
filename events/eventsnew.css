@@ -130,31 +130,13 @@
       background: url('./theater.png') center/cover;  
     }
 
-    @media(max-width: 1000px){
-      .one{
-        background: url('./pronite.png');  
-      }
-    .two{
-        background: url('./ytfest.png');  
-      }
-    .three{
-        background: url('./comedy.png');  
-      }
-    .four{
-        background: url('./theater.png');  
-      }
-    }
-    .containerfull .info{
-      display: flex;
-      width: 30vw;
-      flex-direction: column;
-      margin-left: 8vw;
-      margin-top:5vh;
-    }
+
     .containerfull .info{
       display: flex;
       width: 35vw;
       flex-direction: column;
+      margin-left: 8vw;
+      margin-top:5vh;
     }
     .containerfull .info h1{
       font-size: 3.8rem;
@@ -163,4 +145,23 @@
       font-size: 1.5rem;
       word-spacing: 5px;
       letter-spacing: 1px;
+    }
+    @media(max-width: 1000px){
+      .one{
+        background: url('./pronite.png') cover;  
+      }
+    .two{
+        background: url('./ytfest.png') cover;  
+      }
+    .three{
+        background: url('./comedy.png') center/cover;  
+      }
+    .four{
+        background: url('./theater.png') cover;  
+      }
+      .containerfull .info{
+        display: flex;
+        width: 85vw;
+        flex-direction: column;
+      }
     }

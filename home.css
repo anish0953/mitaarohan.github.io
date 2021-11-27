@@ -634,9 +634,10 @@ nav .fas{
   letter-spacing: 2px;
 }
 #counter-up .content .box span{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 1000;
 }
+
 #counter-up .content .box .text{
   color:#ccc;
   text-align: center;
