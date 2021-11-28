@@ -88,16 +88,16 @@
       background: url('./theater.png') center;  
     } */
   .one{
-      background: url('./pronite1.png') center/cover;  
+      background: url('./pronite2.png') center/cover;  
     }
   .two{
-      background: url('./youtube1.png') center/cover;  
+      background: url('./yt2.png') center/cover;  
     }
   .three{
-      background: url('./comedy1.png') center/cover;  
+      background: url('./comedy2.png') center/cover;  
     }
   .four{
-      background: url('./theatre1.png') center/cover;  
+      background: url('./theatre2.png') center/cover;  
     }
 
 
