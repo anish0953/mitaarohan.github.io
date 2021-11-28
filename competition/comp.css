@@ -64,25 +64,23 @@ header .carousel-inner .item {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
 .carousel-caption h2 span {
 	color: #4247d8;
 }
 a{
-	color: #0000;
-	transition: color 1s ease-out;
+	transition: color 0.5s ease-out;
 }
 a:focus, a:hover {
     color: #2c30b3;
     text-decoration: underline;
 }
 .carousel-caption a {
-	/* background: #00aeff; */
 	background: #ffff;
 	opacity: 0.8;
 	padding: 15px 35px;
 	display: inline-block;
 	margin-top: 15px;
-	/* color: #0000; */
 	text-transform: uppercase;
 	border-radius: 5px;
 	text-decoration: none;
@@ -136,7 +134,9 @@ a:focus, a:hover {
 	}
 	.navbar-inverse .navbar-nav>li>a {
 		font-size: 15px;
-		/* margin-right: 10px; */
+	}
+	.carousel-caption .viewpdf p{
+		font-size: 15px;
 	}
 }
 @media only screen and (max-width: 767px) {

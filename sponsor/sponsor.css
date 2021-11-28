@@ -2,24 +2,23 @@ body {
   font-family: 'Montserrat';
   text-align: center;
 }
-h1,h3{
-  font-family: 'Montserrat';
-}
 h1{
   margin-top: 5vh;
   font-size: 2.5rem;
   font-weight: 600;
 }
 h3{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .section1{
   background-color: #fff;
   position: relative;
+
 }
 .container-fluid {
-  padding: 0% 15%;
+  padding: 2% 15%;
+  
 }
 .title{
   padding: 0 36%;
@@ -30,6 +29,18 @@ h3{
   color: teal;
 }
 .testimonial-image{
-  width: 100%;
+  width: 70%;
   margin: 20px;
+}
+.feature-box{
+  padding-right: 10px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading img{
+  height: 150px;
+  margin-right: 50px;
 }

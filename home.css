@@ -204,6 +204,7 @@ nav .fas{
   font-weight: 1000;
   letter-spacing: 2px;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .aboutus .flexright .text{
@@ -525,6 +526,7 @@ nav .fas{
 .sccontent h2{
   font-size: 2em;
   margin-bottom: 10px;
+  text-align: center;
 }
 .sccontent p{
   font-size: 1.1em;
@@ -632,9 +634,10 @@ nav .fas{
   padding-right: 10px;
   font-weight: 600;
   letter-spacing: 2px;
-}
+} 
+
 #counter-up .content .box span{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 1000;
 }
 

@@ -74,50 +74,8 @@
     display: none;
   }
   
-  @media(max-width: 1000px){
-    nav{
-      padding-right: 20px;
-      /* padding-top: 20px; */
-      z-index: 20;
-    }
-    nav a img{
-      height:100px;
-      margin-left: 30px;
   
-    }
-    .nav-links{
-        position: absolute;
-        background: #2a6cbb;
-        /* opacity: 0.5;  */
-        height: 100vh;
-        width: 200px;
-        top:0;
-        right: -250px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-  
-    .nav-links ul li{
-        display: block;
-        margin: 20px 0px;
-        padding: 10px 0px;
-    }
-    .nav-links ul li a{
-        padding-left: 24px;
-    }
-    .nav-links ul li::after {
-    display: none;
-    }
-    nav .fas{
-      display: block;
-      color: #fff;
-      margin: 20px;
-      font-size: 30px;
-      cursor: pointer;
-    }
-  }
-  .one{
+  /* .one{
       background: url('./pronite.png') center/cover;  
     }
   .two{
@@ -127,7 +85,19 @@
       background: url('./comedy.png') center/cover;  
     }
   .four{
-      background: url('./theater.png') center/cover;  
+      background: url('./theater.png') center;  
+    } */
+  .one{
+      background: url('./pronite1.png') center/cover;  
+    }
+  .two{
+      background: url('./youtube1.png') center/cover;  
+    }
+  .three{
+      background: url('./comedy1.png') center/cover;  
+    }
+  .four{
+      background: url('./theatre1.png') center/cover;  
     }
 
 
@@ -163,5 +133,46 @@
         display: flex;
         width: 85vw;
         flex-direction: column;
+      }
+      nav{
+        padding-right: 20px;
+        /* padding-top: 20px; */
+        z-index: 20;
+      }
+      nav a img{
+        height:100px;
+        margin-left: 30px;
+    
+      }
+      .nav-links{
+          position: absolute;
+          background: #2a6cbb;
+          /* opacity: 0.5;  */
+          height: 100vh;
+          width: 200px;
+          top:0;
+          right: -250px;
+          text-align: left;
+          z-index: 2;
+          transition: 1s;
+      }
+    
+      .nav-links ul li{
+          display: block;
+          margin: 20px 0px;
+          padding: 10px 0px;
+      }
+      .nav-links ul li a{
+          padding-left: 24px;
+      }
+      .nav-links ul li::after {
+      display: none;
+      }
+      nav .fas{
+        display: block;
+        color: #fff;
+        margin: 20px;
+        font-size: 30px;
+        cursor: pointer;
       }
     }
