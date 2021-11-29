@@ -75,30 +75,18 @@
   }
   
   
-  /* .one{
-      background: url('./pronite.png') center/cover;  
-    }
-  .two{
-      background: url('./ytfest.png') center/cover;  
-    }
-  .three{
-      background: url('./comedy.png') center/cover;  
-    }
-  .four{
-      background: url('./theater.png') center;  
-    } */
   .one{
-      background: url('./pronite2.png') center/cover;  
+      background: url('./eventfinal-01.png') center/cover;  
     }
   .two{
-      background: url('./yt2.png') center/cover;  
-    }
+    background: url('./eventfinal-02.png') center/cover;  
+  }
   .three{
-      background: url('./comedy2.png') center/cover;  
-    }
+    background: url('./eventfinal-03.png') center/cover;  
+  }
   .four{
-      background: url('./theatre2.png') center/cover;  
-    }
+    background: url('./eventfinal-04.png') center/cover;  
+  }
 
 
     .containerfull .info{
@@ -108,9 +96,19 @@
       margin-left: 8vw;
       margin-top:5vh;
     }
+    .containerfull .infol{
+      display: flex;
+      width: 35vw;
+      flex-direction: column;
+      align-items: left;
+      margin-left: 55vw;
+      margin-top:5vh;
+    }
+    .containerfull .infol h1,
     .containerfull .info h1{
       font-size: 3.8rem;
     }
+    .containerfull .infol p,
     .containerfull .info p{
       font-size: 1.5rem;
       word-spacing: 5px;
@@ -156,7 +154,16 @@
           z-index: 2;
           transition: 1s;
       }
-    
+      .containerfull .infol h1,
+      .containerfull .info h1{
+        font-size: 3rem;
+      }
+      .containerfull .infol p,
+      .containerfull .info p{
+        font-size: 1.4rem;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+      }
       .nav-links ul li{
           display: block;
           margin: 20px 0px;
@@ -174,5 +181,9 @@
         margin: 20px;
         font-size: 30px;
         cursor: pointer;
+      }
+      .containerfull .infol{
+        margin:auto;
+        width: 80vw;
       }
     }
