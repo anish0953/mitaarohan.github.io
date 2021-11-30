@@ -246,7 +246,10 @@ nav .fas{
   font-size: 30px;
   cursor: pointer;
   margin:10px ;
-  transition: .5s;
+}
+.media .logos li a{
+color: white;
+transition: color 0.5s;
 }
 @media(max-width: 1000px){
   .aboutus{
@@ -280,32 +283,19 @@ nav .fas{
   transform: scale(1.2);
 }
 
-.media .logos li:nth-child(1){
-  color: #a1a1a1;
+.media .logos li a:nth-child(1){
+  color: grey;
 }
-.media .logos li:nth-child(2){
-  color: #a1a1a1;
 
-}
-.media .logos li:nth-child(3){
-  color: #a1a1a1;
-
-}
-.media .logos li:nth-child(4){
-  color: #a1a1a1;
-}
-.media .logos li:nth-child(5){
-  color: #a1a1a1;
-}
-.media .logos li:nth-child(1):hover{
+.media .logos li a:nth-child(1):hover{
   color: #456cba;
   text-shadow: 
-  1px -100px 100px #8d8d8d, 
+  1px -100px 100px pink, 
   2px 2px 10px #000000, 
   0 0 5px #00ffef, 
   0 0 10px #00ffef, 
   0 0 200px #00ffef, 
-  0 0 400px #00ffef, 
+  0 0 200px #00ffef, 
   0 0 100px #00ffef;
 }
 .media .logos li:nth-child(2):hover{
@@ -703,7 +693,7 @@ nav .fas{
   background-position: center;
   background-size: cover;
   color: #000;
-  height: 110vh;
+  height: 100vh;
 
 }
 #features{
@@ -814,26 +804,24 @@ color: grey;
 }
 #features .logoicon ul li a:nth-child(1):hover{
 color: #2a6cbb;
+text-shadow: 
+1px -2px 10px #2E3192, 
+2px 2px 10px #000000, 
+0 0 5px #2E3192, 
+0 0 10px #2E3192, 
+0 0 30px #2E3192, 
+0 0 40px #2E3192, 
+0 0 10px #2E3192; 
 }
-/* #features .logoicon ul li a:nth-child(2):hover{
-color: #26a4f2;
-}
-#features .logoicon ul li a:nth-child(3):hover{
-color: #e23670;
-}
-#features .logoicon ul li a i:nth-child(4):hover{
-color: #2a6cbb;
-}
-#features .logoicon ul li a i:nth-child(5):hover{
-color: #fd3737;
-} */
-
 #features  .box .logo{
 align-items: flex-start;
 }
 @media(max-width: 1000px){
   .old{
     display: none;
+  }
+  .five{
+    height:110vh;
   }
   #features{
     /* height: 100vh; */

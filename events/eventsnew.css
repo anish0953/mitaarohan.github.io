@@ -115,18 +115,6 @@
       letter-spacing: 1px;
     }
     @media(max-width: 1000px){
-      .one{
-        background: url('./pronite.png') cover;  
-      }
-    .two{
-        background: url('./ytfest.png') cover;  
-      }
-    .three{
-        background: url('./comedy.png') center/cover;  
-      }
-    .four{
-        background: url('./theater.png') cover;  
-      }
       .containerfull .info{
         display: flex;
         width: 85vw;
@@ -185,5 +173,8 @@
       .containerfull .infol{
         margin:auto;
         width: 80vw;
+      }
+      .one{
+        background: url('./eventsbg-01.png') center/cover;  
       }
     }

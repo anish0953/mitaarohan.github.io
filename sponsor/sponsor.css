@@ -44,3 +44,19 @@ h3{
   height: 150px;
   margin-right: 50px;
 }
+@media(max-width: 1000px){
+  .testimonial-image{
+    width: 40%;
+    margin: 20px;
+  }
+  .sponsor img{
+    width: 30vw;
+  }
+  .container-fluid {
+    padding: 2% 15%;
+    
+  }
+  .title{
+    padding: 0 20%;
+  }
+}
