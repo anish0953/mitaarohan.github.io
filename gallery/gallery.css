@@ -26,12 +26,12 @@
   font-size: 3.5em;
   font-weight:500;
   padding-bottom: 10px;
-  border-bottom: 3px solid #2a6cbb;
+  border-bottom: 3px solid #4247d8;
   color: #ffff;
 }
 
 #gallery .heading h3 span{
-  color: #2a6cbb;
+  color: #4247d8;
   font-weight: 600;
 }
 #gallery .g-box{
@@ -51,7 +51,7 @@
   width: 100%;
   margin-bottom: 15px;
   border-radius: 5px;
-  border: 1px solid #2a6cbb;
+  border: 1px solid #4247d8;
 }
 
 #gallery .g-btn{
