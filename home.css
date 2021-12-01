@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 section{
   height: 100vh;
   width: 100vw;
@@ -14,6 +15,7 @@ section{
   scroll-snap-align: start;
 }
 .containerfull{
+  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
