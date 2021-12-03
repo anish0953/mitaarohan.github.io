@@ -107,6 +107,7 @@ a:focus, a:hover {
 }
 /*responsive css*/
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
 		padding-bottom: 130px;
@@ -219,4 +220,16 @@ a:focus, a:hover {
 }
 .viewpdf{
 	display: flex;
+}
+@media only screen and (max-width: 1400px) {
+	.carousel-caption h2 {
+		font-size: 6rem;
+	}
+	.carousel-caption h3 {
+		font-size: 25px;
+	}
+	.carousel-caption p {
+		margin-right: 20px;
+		font-size: 17px;
+	}
 }
